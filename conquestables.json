@@ -1,1 +1,590 @@
-{"the azdun catacombs":{"owner":"","coords":{"y":0,"x":0}},"the pash valley":{"owner":"","coords":{"y":0,"x":0}},"the black forest":{"owner":"","coords":{"y":0,"x":0}},"quartz peak":{"owner":"","coords":{"y":0,"x":0}},"the sangre plains":{"owner":"","coords":{"y":0,"x":0}},"eleusis":{"owner":"","coords":{"y":0,"x":0}},"the mhojave desert":{"owner":"","coords":{"y":0,"x":0}},"the sunderlands":{"owner":"","coords":{"y":0,"x":0}},"the great southern road":{"owner":"","coords":{"y":0,"x":0}},"the halls of blackrock":{"owner":"","coords":{"y":0,"x":0}},"the village of bagwar's copse":{"owner":"","coords":{"y":0,"x":0}},"the southern vashnar mountains":{"owner":"","coords":{"y":0,"x":0}},"green lake":{"owner":"","coords":{"y":0,"x":0}},"the eastern wilderness":{"owner":"","coords":{"y":0,"x":0}},"aurick manor":{"owner":"","coords":{"y":0,"x":0}},"the island off the northern vashnars":{"owner":"","coords":{"y":0,"x":0}},"the southern wilderness":{"owner":"","coords":{"y":0,"x":0}},"the urubamba river":{"owner":"","coords":{"y":0,"x":0}},"new thera":{"owner":"","coords":{"y":0,"x":0}},"the ruins of the erisian pyramid":{"owner":"","coords":{"y":0,"x":0}},"hashan":{"owner":"","coords":{"y":0,"x":0}},"the aureliana forest":{"owner":"","coords":{"y":0,"x":0}},"ashtan":{"owner":"","coords":{"y":0,"x":0}},"targossas":{"owner":"","coords":{"y":0,"x":0}},"the village of bitterfork":{"owner":"","coords":{"y":0,"x":0}},"the eastern shore":{"owner":"","coords":{"y":0,"x":0}},"the vashnar mountains":{"owner":"","coords":{"y":0,"x":0}},"cyrene":{"owner":"","coords":{"y":0,"x":0}},"the lost city of kasmarkin":{"owner":"","coords":{"y":0,"x":0}},"an underground lake":{"owner":"","coords":{"y":0,"x":0}},"the thraasi foothills":{"owner":"","coords":{"y":0,"x":0}},"the northern ithmia":{"owner":"","coords":{"y":0,"x":0}},"the northern wilderness":{"owner":"","coords":{"y":0,"x":0}},"the village of ka'doloki":{"owner":"","coords":{"y":0,"x":0}},"the muurn lake":{"owner":"","coords":{"y":0,"x":0}},"the cyrene road":{"owner":"","coords":{"y":0,"x":0}},"the eastern road":{"owner":"","coords":{"y":0,"x":0}},"the dakhota hills":{"owner":"","coords":{"y":0,"x":0}},"a dwarven camp":{"owner":"","coords":{"y":0,"x":0}},"the savannah":{"owner":"","coords":{"y":0,"x":0}},"the dardanic grasslands":{"owner":"","coords":{"y":0,"x":0}},"the barony of dun valley":{"owner":"","coords":{"y":0,"x":0}},"the village of qurnok":{"owner":"","coords":{"y":0,"x":0}},"the northreach forest":{"owner":"","coords":{"y":0,"x":0}},"the eastern reaches":{"owner":"","coords":{"y":0,"x":0}},"the northern plains":{"owner":"","coords":{"y":0,"x":0}},"the monastery of shala'jen":{"owner":"","coords":{"y":0,"x":0}},"the eastern pachacacha river":{"owner":"","coords":{"y":0,"x":0}},"the bog of ashtan":{"owner":"","coords":{"y":0,"x":0}},"the aerinewild":{"owner":"","coords":{"y":0,"x":0}},"jaru":{"owner":"","coords":{"y":0,"x":0}},"the shamtota hills":{"owner":"","coords":{"y":0,"x":0}},"the rhodestrian settlement":{"owner":"","coords":{"y":0,"x":0}},"the northern vashnar mountains":{"owner":"","coords":{"y":0,"x":0}},"the zaphar river":{"owner":"","coords":{"y":0,"x":0}},"the siroccian mountains":{"owner":"","coords":{"y":0,"x":0}},"the dungeon of the beastlords":{"owner":"","coords":{"y":0,"x":0}},"an orcish outpost":{"owner":"","coords":{"y":0,"x":0}},"lake narcisse":{"owner":"","coords":{"y":0,"x":0}},"the southern zaphar river":{"owner":"","coords":{"y":0,"x":0}},"tir murann":{"owner":"","coords":{"y":0,"x":0}},"the mannaseh swamp":{"owner":"","coords":{"y":0,"x":0}},"a filthy goblin village":{"owner":"","coords":{"y":0,"x":0}},"the village of genji":{"owner":"","coords":{"y":0,"x":0}},"xhaiden dale":{"owner":"","coords":{"y":0,"x":0}},"the pachacacha river":{"owner":"","coords":{"y":0,"x":0}},"the eastern ithmia":{"owner":"","coords":{"y":0,"x":0}},"lake vundamere":{"owner":"","coords":{"y":0,"x":0}},"the peshwar delta":{"owner":"","coords":{"y":0,"x":0}},"the central wilderness":{"owner":"","coords":{"y":0,"x":0}},"the western ithmia":{"owner":"","coords":{"y":0,"x":0}},"the granite hills":{"owner":"","coords":{"y":0,"x":0}},"moghedu":{"owner":"","coords":{"y":0,"x":0}},"the isle of harae":{"owner":"","coords":{"y":0,"x":0}},"the village of tasur'ke":{"owner":"","coords":{"y":0,"x":0}},"mount piraeus":{"owner":"","coords":{"y":0,"x":0}},"the keep of belladona":{"owner":"","coords":{"y":0,"x":0}},"the muurn river valley":{"owner":"","coords":{"y":0,"x":0}},"mhaldor":{"owner":"","coords":{"y":0,"x":0}},"the mesmerium":{"owner":"","coords":{"y":0,"x":0}},"the village of petra":{"owner":"","coords":{"y":0,"x":0}},"the sea lion cove":{"owner":"","coords":{"y":0,"x":0}},"the gypsy village manusha":{"owner":"","coords":{"y":0,"x":0}},"the chapel of all gods":{"owner":"","coords":{"y":0,"x":0}}}
+{
+  "the azdun catacombs": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the pash valley": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the black forest": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "quartz peak": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the sangre plains": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "eleusis": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the mhojave desert": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the sunderlands": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the great southern road": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the halls of blackrock": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the village of bagwar's copse": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the southern vashnar mountains": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "green lake": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the eastern wilderness": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "aurick manor": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the island off the northern vashnars": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the southern wilderness": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the urubamba river": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "new thera": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the ruins of the erisian pyramid": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "hashan": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the aureliana forest": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "ashtan": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "targossas": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the village of bitterfork": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the eastern shore": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the vashnar mountains": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "cyrene": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the lost city of kasmarkin": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "an underground lake": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the thraasi foothills": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the northern ithmia": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the northern wilderness": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the village of ka'doloki": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the muurn lake": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the cyrene road": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the eastern road": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the dakhota hills": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "a dwarven camp": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the savannah": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the dardanic grasslands": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the barony of dun valley": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the village of qurnok": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the northreach forest": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the eastern reaches": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the northern plains": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the monastery of shala'jen": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the eastern pachacacha river": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the bog of ashtan": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the aerinewild": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "jaru": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the shamtota hills": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the rhodestrian settlement": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the northern vashnar mountains": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the zaphar river": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the siroccian mountains": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the dungeon of the beastlords": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "an orcish outpost": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "lake narcisse": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the southern zaphar river": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "tir murann": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the mannaseh swamp": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "a filthy goblin village": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the village of genji": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "xhaiden dale": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the pachacacha river": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the eastern ithmia": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "lake vundamere": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the peshwar delta": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the central wilderness": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the western ithmia": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the granite hills": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "moghedu": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the isle of harae": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the village of tasur'ke": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "mount piraeus": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the keep of belladona": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the muurn river valley": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "mhaldor": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the mesmerium": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the village of petra": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the sea lion cove": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the gypsy village manusha": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  },
+  "the chapel of all gods": {
+    "owner": "",
+    "coords": {
+      "y": 0,
+      "x": 0
+    }
+  }
+}
