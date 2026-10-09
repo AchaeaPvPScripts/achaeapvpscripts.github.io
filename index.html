@@ -90,7 +90,7 @@
             const [xp, yp] = [x/100, y/100]; // x-point and y=point! 
             
             // I think we also divide x by 50 to get our radius for our circles.
-            const radius = xp; // It's a compass, apparently.
+            const radius = xp/2; // It's a compass, apparently.
             
             const colors = {
               'Ashtan':'violet',
@@ -131,7 +131,7 @@
                   //console.log(conquestables)
                   ctx.beginPath();
                   ctx.strokeStyle = owner === conquestables[lines].owner ? colors[owner] : colors['']
-                  ctx.lineWidth = 10;
+                  ctx.lineWidth = 5;
                   ctx.lineCap = "round";
                   ctx.moveTo(x+(yp/2), y+(yp/2));
                   ctx.lineTo(conquestables[lines].coords.x + (yp/2), conquestables[lines].coords.y + (yp/2));
