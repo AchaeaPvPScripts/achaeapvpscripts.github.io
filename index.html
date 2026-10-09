@@ -49,7 +49,7 @@
   <body>
 
       <div class="container">
-          <img id="bg-image" src="ConquestSlice.png" alt="Map of Achaea">
+          <img id="bg-image" src="" alt="Map of Achaea"> <!-- ConquestSlice.png, but blank for testing. -->
           <canvas id="draw-canvas"></canvas>
       </div>
 
@@ -137,7 +137,7 @@
               }
               
               // and now fill with the symbol: 
-              ctx.fillStyle("white");
+              ctx.fillStyle = "white";
               ctx.fillText(symbols[owner], x+(yp/4), y+(yp/4));
             }
           }
