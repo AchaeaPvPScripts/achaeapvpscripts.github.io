@@ -89,8 +89,8 @@
             const [x, y] = [canvas.width, canvas.height];
             const [xp, yp] = [x/100, y/100]; // x-point and y=point! 
             
-            // I think we also divide x by 200 to get our radius for our circles.
-            const radius = xp/2; // It's a compass, apparently.
+            // I think we also divide x by 50 to get our radius for our circles.
+            const radius = x*2; // It's a compass, apparently.
             
             const colors = {
               'Ashtan':'violet',
@@ -127,6 +127,7 @@
               console.log(key, connections[key])
               // and now draw out your connections; may need to come back and record what has been drawn to/from and only draw once but right now we don't care:
               connections[key].forEach(lines => {
+                console.log(conquestables)
                 ctx.beginPath();
                 ctx.strokeStyle = owner === conquestables[lines].owner ? colors[owner] : colors['']
                 ctx.lineWidth = 10;
