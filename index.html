@@ -127,14 +127,16 @@
               console.log(key, connections[key])
               // and now draw out your connections; may need to come back and record what has been drawn to/from and only draw once but right now we don't care:
               connections[key].forEach(lines => {
-                console.log(conquestables)
-                ctx.beginPath();
-                ctx.strokeStyle = owner === conquestables[lines].owner ? colors[owner] : colors['']
-                ctx.lineWidth = 10;
-                ctx.lineCap = "round";
-                ctx.moveTo(x+(yp/2), y+(yp/2));
-                ctx.lineTo(conquestables[lines].coords.x + (yp/2), conquestables[lines].coords.y + (yp/2));
-                ctx.stroke();
+                if (conquestables[lines]) {
+                  console.log(conquestables)
+                  ctx.beginPath();
+                  ctx.strokeStyle = owner === conquestables[lines].owner ? colors[owner] : colors['']
+                  ctx.lineWidth = 10;
+                  ctx.lineCap = "round";
+                  ctx.moveTo(x+(yp/2), y+(yp/2));
+                  ctx.lineTo(conquestables[lines].coords.x + (yp/2), conquestables[lines].coords.y + (yp/2));
+                  ctx.stroke();
+                };
               });
               
               // and now fill with the symbol: 
