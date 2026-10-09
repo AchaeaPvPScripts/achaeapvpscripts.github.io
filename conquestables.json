@@ -65,8 +65,8 @@
   "the halls of blackrock": {
     "owner": "",
     "coords": {
-      "y": 0,
-      "x": 0
+      "y": 32,
+      "x": 5
     }
   },
   "the village of bagwar's copse": {
@@ -107,7 +107,7 @@
   "the island off the northern vashnars": {
     "owner": "Mhaldor",
     "coords": {
-      "y": 30,
+      "y": 33,
       "x": 8
     }
   },
@@ -373,8 +373,8 @@
   "the northern vashnar mountains": {
     "owner": "",
     "coords": {
-      "y": 0,
-      "x": 0
+      "y": 34,
+      "x": 20
     }
   },
   "the zaphar river": {
@@ -450,8 +450,8 @@
   "xhaiden dale": {
     "owner": "",
     "coords": {
-      "y": 0,
-      "x": 0
+      "y": 29,
+      "x": 22
     }
   },
   "the pachacacha river": {
