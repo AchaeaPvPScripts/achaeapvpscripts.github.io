@@ -105,10 +105,10 @@
     }
   },
   "the island off the northern vashnars": {
-    "owner": "",
+    "owner": "Mhaldor",
     "coords": {
-      "y": 0,
-      "x": 0
+      "y": 30,
+      "x": 8
     }
   },
   "the southern wilderness": {
@@ -548,8 +548,8 @@
   "mhaldor": {
     "owner": "Mhaldor",
     "coords": {
-      "y": 33,
-      "x": 8
+      "y": 28,
+      "x": 5
     }
   },
   "the mesmerium": {

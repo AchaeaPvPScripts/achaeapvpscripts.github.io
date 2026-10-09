@@ -7,19 +7,12 @@
       <style>
           body {
               font-family: Arial, sans-serif;
-              display: flex;
+              display: absolute;
               flex-direction: column;
               align-items: center;
               background-color: #f0f2f5;
               margin: 0;
               padding: 20px;
-          }
-
-          .controls {
-              margin-bottom: 15px;
-              display: flex;
-              gap: 10px;
-              align-items: center;
           }
 
           /* Container holds both the image and canvas exactly on top of each other */
@@ -141,7 +134,7 @@
               
               // and now fill with the symbol: 
               ctx.fillStyle = "white";
-              ctx.fillText(symbols[owner], x+(yp/4), y+(yp/4));
+              ctx.fillText(symbols[owner], x, y);
             }
           }
           main();
