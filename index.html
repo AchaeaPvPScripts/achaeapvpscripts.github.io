@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Achaea Conquest Map</title>
+      <style>
+          body {
+              font-family: Arial, sans-serif;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              background-color: #f0f2f5;
+              margin: 0;
+              padding: 20px;
+          }
+
+          .controls {
+              margin-bottom: 15px;
+              display: flex;
+              gap: 10px;
+              align-items: center;
+          }
+
+          /* Container holds both the image and canvas exactly on top of each other */
+          .container {
+              position: relative;
+              box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+              border-radius: 8px;
+              overflow: hidden;
+              background-color: #fff;
+          }
+
+          #bg-image {
+              display: block;
+              max-width: 100%;
+              height: auto;
+              object-fit: cover;
+          }
+
+          #draw-canvas {
+              position: absolute;
+              top: 0;
+              left: 0;
+              cursor: pointer;
+          }
+      </style>
+  </head>
+  <body>
+
+      <div class="container">
+          <img id="bg-image" src="ConquestSlice.png" alt="Map of Achaea">
+          <canvas id="draw-canvas"></canvas>
+      </div>
+
+      <script>
+          const image = document.getElementById('bg-image');
+          const canvas = document.getElementById('draw-canvas');
+          const ctx = canvas.getContext('2d');
+
+          function resizeCanvas() {
+              canvas.width = image.clientWidth;
+              canvas.height = image.clientHeight;
+              
+              ctx.lineCap = 'round';
+              ctx.lineJoin = 'round';
+          }
+
+          if (image.complete) {
+              resizeCanvas();
+          } else {
+              image.addEventListener('load', resizeCanvas);
+          }
+
+          // Adjust canvas if window size changes
+          window.addEventListener('resize', resizeCanvas);
+
+          async function loadJSON(file) {
+            const response = await fetch(file);
+            const data = await response.json();
+
+            return data;
+          }
+
+          const conquestables = loadJSON("../conquestables.json")
+          const connections = loadJSON("../conquest_connections.json")
+
+          // We need to get dimensions of the page, then translate those dimensions into a grid system.
+          // Alright get that x y and divide that by 100 and that's your grid system, buckaroo. 
+          const [x, y] = [canvas.width, canvas.height];
+          const [xp, yp] = [x/100, y/100]; // x-point and y=point! 
+          
+          // I think we also divide x by 200 to get our radius for our circles.
+          const radius = [xp/2]; // It's a compass, apparently.
+          
+          const colors = {
+            'Ashtan':'violet',
+            'Cyrene':'aqua',
+            'Eleusis':'green',
+            'Hashan':'gold',
+            'Mhaldor':'red',
+            'Targossas':'yellow',
+            '':'white'
+          }
+
+          const symbols = {
+            'Mhaldor':'🏰',
+            'Hashan':'🧪',
+            'Targossas':'🔥',
+            'Eleusis':'🌳',
+            'Cyrene':'🌊',
+            'Ashtan':'☸️',
+            '':'X'
+          }
+
+          // Also we've gone back and 'conquestables' now includes coords. It's fine. Now, let's dance.
+          for (let key in conquestables) {
+            const coords = conquestables[key].coords;
+            const owner = conquestables[key].owner;
+            const [x, y] = [xp * coords.x, yp * coords.y];
+            ctx.beginPath();
+            ctx.arc(x, y, radius, 0, 2*Math.PI);
+            ctx.fillStyle = colors[owner];
+            ctx.fill();
+            ctx.lineWidth = 2;
+            ctx.strokeStyle = colors[owner];
+            ctx.stroke();
+
+            // and now draw out your connections; may need to come back and record what has been drawn to/from and only draw once but right now we don't care:
+            for (let lines in connections[key]) {
+              ctx.beginPath();
+              ctx.strokeStyle = owner === conquestables[lines].owner ? colors[owner] : colors['']
+              ctx.lineWidth = 10;
+              ctx.lineCap = "round";
+              ctx.moveTo(x+(yp/2), y+(yp/2));
+              ctx.lineTo(conquestables[lines].coords.x + (yp/2), conquestables[lines].coords.y + (yp/2));
+              ctx.stroke();
+            }
+            
+            // and now fill with the symbol: 
+            ctx.fillStyle("white");
+            ctx.fillText(symbols[owner], x+(yp/4), y+(yp/4));
+          }
+
+      </script>
+  </body>
+</html>
