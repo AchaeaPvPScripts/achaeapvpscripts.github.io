@@ -161,6 +161,7 @@ async function loadAndDrawMap() {
           const rect = canvas.getBoundingClientRect();
           const [x, y] = [event.clientX-rect.left, event.clientY-rect.top];
           console.log("You are at: ", x, y)
+          hideTooltip()
           for (const [circleName, data] of Object.entries(circlePositions)) {
             const [dx, dy] = [x-data.x, y-data.y];
             const distance = Math.sqrt(dx * dx + dy * dy)
