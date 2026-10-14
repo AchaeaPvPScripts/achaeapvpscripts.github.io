@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Achaea Conquest Map</title>
+      <style>
+          body {
+              font-family: Arial, sans-serif;
+              display: absolute;
+              flex-direction: column;
+              align-items: center;
+              background-color: #f0f2f5;
+              margin: 0;
+              padding: 20px;
+          }
+
+          .container {
+              position: relative;
+              display: inline-block;
+          }
+
+          #bg-image {
+              display: block;
+              width: auto !important;
+              height: auto !important;
+              margin: 0 auto;
+          }
+
+          #draw-canvas {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              cursor: pointer;
+          }
+      </style>
+  </head>
+  <body>
+
+      <div class="container">
+          <img id="bg-image" src="ConquestSlice.png" alt="Map of Achaea" width="2097" height="1660"> <!-- ConquestSlice.png, but blank for testing. -->
+          <canvas id="draw-canvas"></canvas>
+      </div>
+
+      <script>
+
+const ownerColors = {
+    "Mhaldor": "red",
+    "Cyrene": "cyan",
+    "Eleusis": "darkgreen",
+    "Targossas": "yellow",
+    "Hashan": "darkgoldenrod",
+    "Ashtan": "purple",
+    "": "darkgrey"
+};
+
+const tooltip = document.createElement('div');
+tooltip.id = 'tooltip';
+tooltip.style.position = 'absolute';
+tooltip.style.visibility = 'hidden';
+tooltip.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
+tooltip.style.color = 'white';
+tooltip.style.padding = '5px';
+tooltip.style.borderRadius = '3px';
+tooltip.style.fontSize = '12px';
+tooltip.style.zIndex = '1000';
+document.body.appendChild(tooltip);
+
+function showTooltip(circleName, owner) {
+    tooltip.innerHTML = `<strong>${circleName}</strong><br>Owner: ${owner || 'None'}`;
+    tooltip.style.visibility = 'visible';
+}
+
+function hideTooltip() {
+    tooltip.style.visibility = 'hidden';
+}
+
+function moveTooltip(event) {
+    tooltip.style.left = (event.pageX + 10) + 'px';
+    tooltip.style.top = (event.pageY - 10) + 'px';
+}
+
+async function loadAndDrawMap() {
+    try {
+        const conqAreasResponse = await fetch('conquestables.json');
+        const connectionsResponse = await fetch('conquest_connections.json');
+
+        const conqAreas = await conqAreasResponse.json();
+        const connections = await connectionsResponse.json();
+
+        // Get image size and set canvas to fit it
+        const img = document.getElementById("bg-image");
+
+        const canvas = document.getElementById('draw-canvas');
+
+        canvas.width = img.width;
+        canvas.height = img.height;
+
+        const ctx = canvas.getContext('2d');
+        
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        // Draw connections
+        for (const [circleName, connectedCircles] of Object.entries(connections)) {
+            const startCircle = conqAreas[circleName];
+            if (!startCircle) continue;
+
+            const startX = startCircle.coords.x;
+            const startY = startCircle.coords.y;
+            const startOwner = startCircle.owner;
+
+            for (const targetName of connectedCircles) {
+                const endCircle = conqAreas[targetName];
+                if (!endCircle) continue;
+
+                const endX = endCircle.coords.x;
+                const endY = endCircle.coords.y;
+                const endOwner = endCircle.owner;
+
+                // Set line color
+                let lineColor = 'darkgrey';
+                if (startOwner === endOwner && startOwner !== "") {
+                    const color = ownerColors[startOwner];
+                    if (color) {
+                      lineColor = color
+                    }
+                }
+
+                // Draw line
+                ctx.beginPath();
+                ctx.moveTo(startX, startY);
+                ctx.lineTo(endX, endY);
+                ctx.strokeStyle = lineColor;
+                ctx.lineWidth = 2;
+                ctx.stroke();
+            }
+        }
+
+        const circlePositions = {};
+  
+        for (const [circleName, data] of Object.entries(conqAreas)) {
+            const { coords, owner } = data;
+            const x = coords.x;
+            const y = coords.y;
+
+            circlePositions[circleName] = { x, y, owner };
+
+            const color = ownerColors[owner] || "darkgrey";
+
+            ctx.beginPath();
+            ctx.arc(x, y, 10, 0, Math.PI * 2);
+            ctx.fillStyle = color;
+            ctx.fill();
+            ctx.strokeStyle = 'black';
+            ctx.lineWidth = 1;
+            ctx.stroke();
+        }
+
+        canvas.addEventListener('mousemove', (event) => {
+          const rect = canvas.getBoundingClientRect();
+          const [x, y] = [event.clientX-rect.left, event.clientY-rect.top];
+          console.log("You are at: ", x, y)
+          for (const [circleName, data] of Object.entries(circlePositions)) {
+            const [dx, dy] = [x-data.x, y-data.y];
+            const distance = Math.sqrt(dx * dx + dy * dy)
+            if (distance <= 10) {
+              showTooltip(circleName, data.owner)
+              moveTooltip(event)
+            }
+          }
+        });
+
+    } catch (error) {
+        console.error('Error loading JSON files:', error);
+    }
+}
+
+window.addEventListener('load', loadAndDrawMap);
+      </script>
+  </body>
+</html>

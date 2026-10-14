@@ -1,0 +1,604 @@
+{
+  "the isle of harae": {
+    "coords": {
+      "y": 658,
+      "x": 293
+    },
+    "owner": "Mhaldor"
+  },
+  "the pash valley": {
+    "coords": {
+      "y": 1130,
+      "x": 1660
+    },
+    "owner": "Targossas"
+  },
+  "the black forest": {
+    "coords": {
+      "y": 530,
+      "x": 725
+    },
+    "owner": "Eleusis"
+  },
+  "the dungeon of the beastlords": {
+    "coords": {
+      "y": 615,
+      "x": 760
+    },
+    "owner": "Cyrene"
+  },
+  "the sangre plains": {
+    "coords": {
+      "y": 360,
+      "x": 785
+    },
+    "owner": "Ashtan"
+  },
+  "eleusis": {
+    "coords": {
+      "y": 620,
+      "x": 1640
+    },
+    "owner": "Eleusis"
+  },
+  "the mhojave desert": {
+    "coords": {
+      "y": 1175,
+      "x": 1255
+    },
+    "owner": "Cyrene"
+  },
+  "the sunderlands": {
+    "coords": {
+      "y": 280,
+      "x": 1715
+    },
+    "owner": "Hashan"
+  },
+  "the great southern road": {
+    "coords": {
+      "y": 1320,
+      "x": 1360
+    },
+    "owner": "Cyrene"
+  },
+  "the halls of blackrock": {
+    "coords": {
+      "y": 535,
+      "x": 109
+    },
+    "owner": "Mhaldor"
+  },
+  "the village of bagwar's copse": {
+    "coords": {
+      "y": 490,
+      "x": 1450
+    },
+    "owner": "Eleusis"
+  },
+  "the southern vashnar mountains": {
+    "coords": {
+      "y": 1390,
+      "x": 1290
+    },
+    "owner": "Cyrene"
+  },
+  "green lake": {
+    "coords": {
+      "y": 635,
+      "x": 1410
+    },
+    "owner": "Ashtan"
+  },
+  "the eastern wilderness": {
+    "coords": {
+      "y": 410,
+      "x": 2000
+    },
+    "owner": "Targossas"
+  },
+  "aurick manor": {
+    "coords": {
+      "y": 162,
+      "x": 1870
+    },
+    "owner": "Hashan"
+  },
+  "the island off the northern vashnars": {
+    "coords": {
+      "y": 575,
+      "x": 230
+    },
+    "owner": "Mhaldor"
+  },
+  "the southern wilderness": {
+    "coords": {
+      "y": 1035,
+      "x": 1640
+    },
+    "owner": "Targossas"
+  },
+  "the urubamba river": {
+    "coords": {
+      "y": 480,
+      "x": 860
+    },
+    "owner": "Eleusis"
+  },
+  "new thera": {
+    "coords": {
+      "y": 410,
+      "x": 696
+    },
+    "owner": "Ashtan"
+  },
+  "the ruins of the erisian pyramid": {
+    "coords": {
+      "y": 1070,
+      "x": 1235
+    },
+    "owner": "Cyrene"
+  },
+  "the eastern reaches": {
+    "coords": {
+      "y": 810,
+      "x": 1800
+    },
+    "owner": "Targossas"
+  },
+  "the creville asylum": {
+    "coords": {
+      "y": 525,
+      "x": 400
+    },
+    "owner": "Mhaldor"
+  },
+  "ashtan": {
+    "coords": {
+      "y": 265,
+      "x": 655
+    },
+    "owner": "Ashtan"
+  },
+  "targossas": {
+    "coords": {
+      "y": 1230,
+      "x": 1725
+    },
+    "owner": "Targossas"
+  },
+  "the village of bitterfork": {
+    "coords": {
+      "y": 0,
+      "x": 1375
+    },
+    "owner": "Ashtan"
+  },
+  "the eastern shore": {
+    "coords": {
+      "y": 890,
+      "x": 1960
+    },
+    "owner": "Targossas"
+  },
+  "the vashnar mountains": {
+    "coords": {
+      "y": 745,
+      "x": 745
+    },
+    "owner": "Cyrene"
+  },
+  "cyrene": {
+    "coords": {
+      "y": 1355,
+      "x": 870
+    },
+    "owner": "Cyrene"
+  },
+  "the lost city of kasmarkin": {
+    "coords": {
+      "y": 614,
+      "x": 1030
+    },
+    "owner": "Cyrene"
+  },
+  "an underground lake": {
+    "coords": {
+      "y": 565,
+      "x": 83
+    },
+    "owner": "Mhaldor"
+  },
+  "the thraasi foothills": {
+    "coords": {
+      "y": 835,
+      "x": 510
+    },
+    "owner": "Cyrene"
+  },
+  "the northern ithmia": {
+    "coords": {
+      "y": 350,
+      "x": 1640
+    },
+    "owner": "Hashan"
+  },
+  "the northern wilderness": {
+    "coords": {
+      "y": 150,
+      "x": 1780
+    },
+    "owner": "Hashan"
+  },
+  "the northern plains": {
+    "coords": {
+      "y": 260,
+      "x": 1330
+    },
+    "owner": "Eleusis"
+  },
+  "the muurn lake": {
+    "coords": {
+      "y": 1385,
+      "x": 885
+    },
+    "owner": "Cyrene"
+  },
+  "the cyrene road": {
+    "coords": {
+      "y": 1340,
+      "x": 1030
+    },
+    "owner": "Cyrene"
+  },
+  "the eastern road": {
+    "coords": {
+      "y": 443,
+      "x": 1920
+    },
+    "owner": "Hashan"
+  },
+  "the dakhota hills": {
+    "coords": {
+      "y": 838,
+      "x": 1058
+    },
+    "owner": "Cyrene"
+  },
+  "a dwarven camp": {
+    "coords": {
+      "y": 770,
+      "x": 1475
+    },
+    "owner": "Targossas"
+  },
+  "jaru": {
+    "coords": {
+      "y": 1233,
+      "x": 1694
+    },
+    "owner": "Targossas"
+  },
+  "the siroccian mountains": {
+    "coords": {
+      "y": 760,
+      "x": 1410
+    },
+    "owner": "Targossas"
+  },
+  "the savannah": {
+    "coords": {
+      "y": 745,
+      "x": 1075
+    },
+    "owner": "Eleusis"
+  },
+  "the dardanic grasslands": {
+    "coords": {
+      "y": 0,
+      "x": 1436
+    },
+    "owner": "Ashtan"
+  },
+  "the barony of dun valley": {
+    "coords": {
+      "y": 920,
+      "x": 920
+    },
+    "owner": "Cyrene"
+  },
+  "the village of qurnok": {
+    "coords": {
+      "y": 640,
+      "x": 1350
+    },
+    "owner": "Ashtan"
+  },
+  "the aureliana forest": {
+    "coords": {
+      "y": 480,
+      "x": 965
+    },
+    "owner": "Eleusis"
+  },
+  "the eastern pachacacha river": {
+    "coords": {
+      "y": 1130,
+      "x": 1560
+    },
+    "owner": "Targossas"
+  },
+  "the northreach forest": {
+    "coords": {
+      "y": 0,
+      "x": 1300
+    },
+    "owner": "Ashtan"
+  },
+  "the mannaseh swamp": {
+    "coords": {
+      "y": 650,
+      "x": 1030
+    },
+    "owner": "Cyrene"
+  },
+  "hashan": {
+    "coords": {
+      "y": 325,
+      "x": 1725
+    },
+    "owner": "Hashan"
+  },
+  "the valley of actar": {
+    "coords": {
+      "y": 1275,
+      "x": 1135
+    },
+    "owner": "Cyrene"
+  },
+  "the bog of ashtan": {
+    "coords": {
+      "y": 365,
+      "x": 645
+    },
+    "owner": "Ashtan"
+  },
+  "the southern zaphar river": {
+    "coords": {
+      "y": 860,
+      "x": 1655
+    },
+    "owner": "Eleusis"
+  },
+  "the shamtota hills": {
+    "coords": {
+      "y": 1045,
+      "x": 1500
+    },
+    "owner": "Targossas"
+  },
+  "the rhodestrian settlement": {
+    "coords": {
+      "y": 1400,
+      "x": 1093
+    },
+    "owner": "Cyrene"
+  },
+  "the northern vashnar mountains": {
+    "coords": {
+      "y": 594,
+      "x": 511
+    },
+    "owner": "Mhaldor"
+  },
+  "the monastery of shala'jen": {
+    "coords": {
+      "y": 1185,
+      "x": 1640
+    },
+    "owner": "Targossas"
+  },
+  "tir murann": {
+    "coords": {
+      "y": 860,
+      "x": 1025
+    },
+    "owner": "Eleusis"
+  },
+  "the keep of belladona": {
+    "coords": {
+      "y": 110,
+      "x": 1615
+    },
+    "owner": "Ashtan"
+  },
+  "an orcish outpost": {
+    "coords": {
+      "y": 820,
+      "x": 1480
+    },
+    "owner": "Targossas"
+  },
+  "lake narcisse": {
+    "coords": {
+      "y": 425,
+      "x": 1190
+    },
+    "owner": "Eleusis"
+  },
+  "quartz peak": {
+    "coords": {
+      "y": 1305,
+      "x": 1630
+    },
+    "owner": "Cyrene"
+  },
+  "the zaphar river": {
+    "coords": {
+      "y": 457,
+      "x": 1562
+    },
+    "owner": "Eleusis"
+  },
+  "a filthy goblin village": {
+    "coords": {
+      "y": 875,
+      "x": 1100
+    },
+    "owner": "Cyrene"
+  },
+  "the village of genji": {
+    "coords": {
+      "y": 1350,
+      "x": 1165
+    },
+    "owner": "Eleusis"
+  },
+  "the village of ka'doloki": {
+    "coords": {
+      "y": 1505,
+      "x": 880
+    },
+    "owner": "Cyrene"
+  },
+  "xhaiden dale": {
+    "coords": {
+      "y": 510,
+      "x": 530
+    },
+    "owner": "Cyrene"
+  },
+  "the pachacacha river": {
+    "coords": {
+      "y": 803,
+      "x": 1200
+    },
+    "owner": "Targossas"
+  },
+  "the eastern ithmia": {
+    "coords": {
+      "y": 560,
+      "x": 1735
+    },
+    "owner": "Eleusis"
+  },
+  "lake vundamere": {
+    "coords": {
+      "y": 505,
+      "x": 1160
+    },
+    "owner": "Eleusis"
+  },
+  "the peshwar delta": {
+    "coords": {
+      "y": 1165,
+      "x": 1755
+    },
+    "owner": "Targossas"
+  },
+  "the central wilderness": {
+    "coords": {
+      "y": 425,
+      "x": 1095
+    },
+    "owner": "Eleusis"
+  },
+  "the western ithmia": {
+    "coords": {
+      "y": 460,
+      "x": 1410
+    },
+    "owner": "Eleusis"
+  },
+  "the azdun catacombs": {
+    "coords": {
+      "y": 809,
+      "x": 1038
+    },
+    "owner": "Cyrene"
+  },
+  "the granite hills": {
+    "coords": {
+      "y": 144,
+      "x": 1240
+    },
+    "owner": "Ashtan"
+  },
+  "moghedu": {
+    "coords": {
+      "y": 1265,
+      "x": 1260
+    },
+    "owner": "Eleusis"
+  },
+  "the village of tasur'ke": {
+    "coords": {
+      "y": 200,
+      "x": 1885
+    },
+    "owner": "Ashtan"
+  },
+  "mount piraeus": {
+    "coords": {
+      "y": 1225,
+      "x": 1095
+    },
+    "owner": "Cyrene"
+  },
+  "the mesmerium": {
+    "coords": {
+      "y": 445,
+      "x": 860
+    },
+    "owner": "Cyrene"
+  },
+  "the aerinewild": {
+    "coords": {
+      "y": 545,
+      "x": 960
+    },
+    "owner": "Eleusis"
+  },
+  "mhaldor": {
+    "coords": {
+      "y": 465,
+      "x": 125
+    },
+    "owner": "Mhaldor"
+  },
+  "the muurn river valley": {
+    "coords": {
+      "y": 1380,
+      "x": 763
+    },
+    "owner": "Cyrene"
+  },
+  "the village of petra": {
+    "coords": {
+      "y": 340,
+      "x": 735
+    },
+    "owner": "Ashtan"
+  },
+  "the sea lion cove": {
+    "coords": {
+      "y": 1530,
+      "x": 1200
+    },
+    "owner": "Cyrene"
+  },
+  "the gypsy village manusha": {
+    "coords": {
+      "y": 362,
+      "x": 1860
+    },
+    "owner": "Hashan"
+  },
+  "the chapel of all gods": {
+    "coords": {
+      "y": 427,
+      "x": 595
+    },
+    "owner": "Ashtan"
+  }
+}
