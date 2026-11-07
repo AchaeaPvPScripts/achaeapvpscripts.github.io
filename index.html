@@ -83,7 +83,7 @@ function moveTooltip(event) {
 
 async function loadAndDrawMap() {
     try {
-        const conqAreasResponse = await fetch('conquestables.json');
+        const conqAreasResponse = await fetch('conquestables.json', {cache:"reload"});
         const connectionsResponse = await fetch('conquest_connections.json');
 
         const conqAreas = await conqAreasResponse.json();
