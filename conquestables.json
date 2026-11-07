@@ -1,11 +1,4 @@
 {
-  "the isle of harae": {
-    "coords": {
-      "y": 658,
-      "x": 293
-    },
-    "owner": "Mhaldor"
-  },
   "the pash valley": {
     "coords": {
       "y": 1130,
@@ -20,10 +13,10 @@
     },
     "owner": "Eleusis"
   },
-  "quartz peak": {
+  "the dungeon of the beastlords": {
     "coords": {
-      "y": 1305,
-      "x": 1630
+      "y": 615,
+      "x": 760
     },
     "owner": "Cyrene"
   },
@@ -39,14 +32,7 @@
       "y": 1175,
       "x": 1255
     },
-    "owner": "Cyrene"
-  },
-  "the sunderlands": {
-    "coords": {
-      "y": 280,
-      "x": 1715
-    },
-    "owner": "Hashan"
+    "owner": "Eleusis"
   },
   "the great southern road": {
     "coords": {
@@ -54,13 +40,6 @@
       "x": 1360
     },
     "owner": "Cyrene"
-  },
-  "the halls of blackrock": {
-    "coords": {
-      "y": 535,
-      "x": 109
-    },
-    "owner": "Mhaldor"
   },
   "the village of bagwar's copse": {
     "coords": {
@@ -82,6 +61,13 @@
       "x": 1410
     },
     "owner": "Ashtan"
+  },
+  "the eastern wilderness": {
+    "coords": {
+      "y": 410,
+      "x": 2000
+    },
+    "owner": "Targossas"
   },
   "aurick manor": {
     "coords": {
@@ -118,19 +104,19 @@
     },
     "owner": "Ashtan"
   },
-  "the ruins of the erisian pyramid": {
+  "the muurn river valley": {
     "coords": {
-      "y": 1070,
-      "x": 1235
+      "y": 1380,
+      "x": 763
     },
     "owner": "Cyrene"
   },
-  "hashan": {
+  "the eastern reaches": {
     "coords": {
-      "y": 325,
-      "x": 1725
+      "y": 810,
+      "x": 1800
     },
-    "owner": "Hashan"
+    "owner": "Targossas"
   },
   "the creville asylum": {
     "coords": {
@@ -167,12 +153,19 @@
     },
     "owner": "Targossas"
   },
-  "jaru": {
+  "the vashnar mountains": {
     "coords": {
-      "y": 1233,
-      "x": 1694
+      "y": 745,
+      "x": 745
     },
-    "owner": "Targossas"
+    "owner": "Eleusis"
+  },
+  "cyrene": {
+    "coords": {
+      "y": 1355,
+      "x": 870
+    },
+    "owner": "Cyrene"
   },
   "the lost city of kasmarkin": {
     "coords": {
@@ -181,12 +174,12 @@
     },
     "owner": "Cyrene"
   },
-  "an underground lake": {
+  "the chapel of all gods": {
     "coords": {
-      "y": 565,
-      "x": 83
+      "y": 427,
+      "x": 595
     },
-    "owner": "Mhaldor"
+    "owner": "Ashtan"
   },
   "the thraasi foothills": {
     "coords": {
@@ -207,21 +200,21 @@
       "y": 150,
       "x": 1780
     },
-    "owner": "Eleusis"
+    "owner": "Hashan"
   },
-  "the northern plains": {
+  "the village of ka'doloki": {
     "coords": {
-      "y": 260,
-      "x": 1330
+      "y": 1505,
+      "x": 880
     },
-    "owner": "Eleusis"
+    "owner": "Cyrene"
   },
   "the mannaseh swamp": {
     "coords": {
       "y": 650,
       "x": 1030
     },
-    "owner": "Cyrene"
+    "owner": "Targossas"
   },
   "the cyrene road": {
     "coords": {
@@ -244,13 +237,6 @@
     },
     "owner": "Eleusis"
   },
-  "a dwarven camp": {
-    "coords": {
-      "y": 770,
-      "x": 1475
-    },
-    "owner": "Targossas"
-  },
   "the siroccian mountains": {
     "coords": {
       "y": 760,
@@ -258,26 +244,40 @@
     },
     "owner": "Targossas"
   },
-  "the chapel of all gods": {
+  "a dwarven camp": {
     "coords": {
-      "y": 427,
-      "x": 595
+      "y": 770,
+      "x": 1475
     },
-    "owner": "Ashtan"
+    "owner": "Targossas"
   },
-  "cyrene": {
+  "jaru": {
     "coords": {
-      "y": 1355,
-      "x": 870
+      "y": 1233,
+      "x": 1694
+    },
+    "owner": "Targossas"
+  },
+  "the muurn lake": {
+    "coords": {
+      "y": 1385,
+      "x": 885
     },
     "owner": "Cyrene"
+  },
+  "the eastern pachacacha river": {
+    "coords": {
+      "y": 1130,
+      "x": 1560
+    },
+    "owner": "Targossas"
   },
   "the savannah": {
     "coords": {
       "y": 745,
       "x": 1075
     },
-    "owner": "Eleusis"
+    "owner": "Mhaldor"
   },
   "the dardanic grasslands": {
     "coords": {
@@ -293,12 +293,12 @@
     },
     "owner": "Cyrene"
   },
-  "the eastern pachacacha river": {
+  "tir murann": {
     "coords": {
-      "y": 1130,
-      "x": 1560
+      "y": 860,
+      "x": 1025
     },
-    "owner": "Targossas"
+    "owner": "Eleusis"
   },
   "the village of qurnok": {
     "coords": {
@@ -307,19 +307,19 @@
     },
     "owner": "Ashtan"
   },
-  "the eastern reaches": {
+  "the sunderlands": {
     "coords": {
-      "y": 810,
-      "x": 1800
+      "y": 280,
+      "x": 1715
     },
-    "owner": "Targossas"
+    "owner": "Hashan"
   },
-  "the muurn river valley": {
+  "hashan": {
     "coords": {
-      "y": 1380,
-      "x": 763
+      "y": 325,
+      "x": 1725
     },
-    "owner": "Cyrene"
+    "owner": "Hashan"
   },
   "the northreach forest": {
     "coords": {
@@ -328,13 +328,6 @@
     },
     "owner": "Ashtan"
   },
-  "tir murann": {
-    "coords": {
-      "y": 860,
-      "x": 1025
-    },
-    "owner": "Eleusis"
-  },
   "the valley of actar": {
     "coords": {
       "y": 1275,
@@ -342,12 +335,12 @@
     },
     "owner": "Cyrene"
   },
-  "the keep of belladona": {
+  "the ruins of the erisian pyramid": {
     "coords": {
-      "y": 110,
-      "x": 1615
+      "y": 1070,
+      "x": 1235
     },
-    "owner": "Ashtan"
+    "owner": "Cyrene"
   },
   "the shamtota hills": {
     "coords": {
@@ -370,27 +363,6 @@
     },
     "owner": "Eleusis"
   },
-  "the dungeon of the beastlords": {
-    "coords": {
-      "y": 615,
-      "x": 760
-    },
-    "owner": "Cyrene"
-  },
-  "the zaphar river": {
-    "coords": {
-      "y": 457,
-      "x": 1562
-    },
-    "owner": "Eleusis"
-  },
-  "the northern vashnar mountains": {
-    "coords": {
-      "y": 594,
-      "x": 511
-    },
-    "owner": "Mhaldor"
-  },
   "the monastery of shala'jen": {
     "coords": {
       "y": 1185,
@@ -405,12 +377,40 @@
     },
     "owner": "Cyrene"
   },
+  "the rhodestrian settlement": {
+    "coords": {
+      "y": 1400,
+      "x": 1093
+    },
+    "owner": "Cyrene"
+  },
+  "the northern vashnar mountains": {
+    "coords": {
+      "y": 594,
+      "x": 511
+    },
+    "owner": "Mhaldor"
+  },
+  "the zaphar river": {
+    "coords": {
+      "y": 457,
+      "x": 1562
+    },
+    "owner": "Eleusis"
+  },
   "the village of genji": {
     "coords": {
       "y": 1350,
       "x": 1165
     },
     "owner": "Eleusis"
+  },
+  "quartz peak": {
+    "coords": {
+      "y": 1305,
+      "x": 1630
+    },
+    "owner": "Cyrene"
   },
   "an orcish outpost": {
     "coords": {
@@ -426,13 +426,6 @@
     },
     "owner": "Eleusis"
   },
-  "the village of ka'doloki": {
-    "coords": {
-      "y": 1505,
-      "x": 880
-    },
-    "owner": "Cyrene"
-  },
   "xhaiden dale": {
     "coords": {
       "y": 510,
@@ -440,12 +433,19 @@
     },
     "owner": "Mhaldor"
   },
-  "the azdun catacombs": {
+  "the isle of harae": {
     "coords": {
-      "y": 809,
-      "x": 1038
+      "y": 658,
+      "x": 293
     },
-    "owner": "Cyrene"
+    "owner": "Mhaldor"
+  },
+  "the northern plains": {
+    "coords": {
+      "y": 260,
+      "x": 1330
+    },
+    "owner": "Eleusis"
   },
   "the eastern ithmia": {
     "coords": {
@@ -503,13 +503,6 @@
     },
     "owner": "Eleusis"
   },
-  "the rhodestrian settlement": {
-    "coords": {
-      "y": 1400,
-      "x": 1093
-    },
-    "owner": "Cyrene"
-  },
   "mount piraeus": {
     "coords": {
       "y": 1225,
@@ -524,10 +517,17 @@
     },
     "owner": "Eleusis"
   },
-  "the sangre plains": {
+  "the azdun catacombs": {
     "coords": {
-      "y": 360,
-      "x": 785
+      "y": 809,
+      "x": 1038
+    },
+    "owner": "Cyrene"
+  },
+  "the keep of belladona": {
+    "coords": {
+      "y": 110,
+      "x": 1615
     },
     "owner": "Ashtan"
   },
@@ -538,19 +538,19 @@
     },
     "owner": "Hashan"
   },
-  "the eastern wilderness": {
+  "the sangre plains": {
     "coords": {
-      "y": 410,
-      "x": 2000
+      "y": 360,
+      "x": 785
     },
-    "owner": "Targossas"
+    "owner": "Eleusis"
   },
   "the mesmerium": {
     "coords": {
       "y": 445,
       "x": 860
     },
-    "owner": "Cyrene"
+    "owner": "Eleusis"
   },
   "the aerinewild": {
     "coords": {
@@ -566,12 +566,12 @@
     },
     "owner": "Mhaldor"
   },
-  "the muurn lake": {
+  "the halls of blackrock": {
     "coords": {
-      "y": 1385,
-      "x": 885
+      "y": 535,
+      "x": 109
     },
-    "owner": "Cyrene"
+    "owner": "Mhaldor"
   },
   "the village of petra": {
     "coords": {
@@ -594,11 +594,11 @@
     },
     "owner": "Hashan"
   },
-  "the vashnar mountains": {
+  "an underground lake": {
     "coords": {
-      "y": 745,
-      "x": 745
+      "y": 565,
+      "x": 83
     },
-    "owner": "Cyrene"
+    "owner": "Mhaldor"
   }
 }
